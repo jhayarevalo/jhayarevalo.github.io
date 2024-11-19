@@ -1,6 +1,6 @@
 ---
-title: 'Project 4'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: 'Small Projects'
+description: 'Game assignments at Concordia University and WarmUP Program at Ubisoft'
 image:
     url: '/GitHub.webp'
     alt: 'GitHub wallpaper'

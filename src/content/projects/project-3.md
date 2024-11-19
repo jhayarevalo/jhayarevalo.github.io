@@ -1,8 +1,8 @@
 ---
-title: 'Project 3'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: 'JamNation 2018'
+description: 'Series of gamejams hosted in Montreal QC, Canada'
 image:
-    url: '/GitHub.webp'
+    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6XVcty9nRNC_BEVLpHBv8hAI0l4BsEqbQQQ&s'
     alt: 'GitHub wallpaper'
 worksImage1:
     url: '/image-1.webp'

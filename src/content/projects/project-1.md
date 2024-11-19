@@ -1,8 +1,8 @@
 ---
-title: 'Project 1'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: 'Roller Champions'
+description: 'Crossplatform 3v3 sports game by Ubisoft'
 image:
-    url: '/GitHub.webp'
+    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOEtR8Aq52XtRoXDYX0ntVy6aCMzDa6Vw9UQ&s'
     alt: 'GitHub wallpaper'
 worksImage1:
     url: '/image-1.webp'
