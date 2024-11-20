@@ -9,5 +9,7 @@ worksImage1:
     alt: 'first image of your project.'    
 platform: Web
 engine: Unreal Engine 5
-website: https://playnightingale.com/
 ---
+<div class="badge-div">
+        <span class="badge badge--item">WEBSITE</span><a class="badge__link" href="https://playnightingale.com/" target="_blank">https://playnightingale.com/</a>
+</div>

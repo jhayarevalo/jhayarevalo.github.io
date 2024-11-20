@@ -9,5 +9,7 @@ worksImage1:
     alt: 'first image of your project.'    
 platform: Web
 engine: Construct 2
-website: https://eleanordev.itch.io/repeat-after-me
 ---
+<div class="badge-div">
+        <span class="badge badge--item">WEBSITE</span><a class="badge__link" href="https://eleanordev.itch.io/repeat-after-me" target="_blank">https://eleanordev.itch.io/repeat-after-me</a>
+</div>
