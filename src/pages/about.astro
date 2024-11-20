@@ -1,14 +1,19 @@
 ---
-import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/CardPost.astro";
-const allPosts = await getCollection("posts");
 const pageTitle = "About";
 ---
 
 <Layout pageTitle={pageTitle}>
     <div class="gif">
-        <img width="300" height="259" alt="RaccoonNotesGif" src="/blog.webp" />
+        <img width="300" height="259" alt="serious-note-taking" src="/jhay-about.png" />
+    </div>
+    <h2>About Me!</h2>
+    <p>I have worked as a UI Programmer in the gaming industry for 5 years: 3 years at Ubisoft on <a class="badge__link" href="/projects/project-1/">Roller Champions</a> and 2 years at Inflexion Games on <a class="badge__link" href="/projects/project-2/">Nightingale.</a></p>
+    <p>I have a strong passion for UI design and front-end development and hope to pursue a career that blends both design and programming worlds together!</p>
+    <div class="center center-button">
+        <a href="/portfolio/">
+            <button class="btn">See Projects</button>
+        </a>
     </div>
     <h2>Skills</h2>
     <div class="skills center">
@@ -29,10 +34,7 @@ const pageTitle = "About";
         <img class="skills__img" width="46" height="46" alt="Adobe Photoshop" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"/>
         <img class="skills__img" width="46" height="46" alt="Adobe Illustrator" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-line.svg"/>
     </div>
-
-    <h2>Education</h2>
-    <p>Bachelor's of Engineering in Software Engineering from Concordia University.</p>
-
-    <h2>Job Experience</h2>
-    
+    <h2>Interests</h2>
+    <p>I have classically trained as a pianist for 11 years and self-learned the guitar and the ukulele. I love playing music, baking, travelling but also being a homebody with my two cats: Misty and Kyo.</p>
+    <p>My favorite video game genres are rhythm games, cozy games, survival crafting games and life sims.</p>
 </Layout>
