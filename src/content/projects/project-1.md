@@ -6,7 +6,7 @@ image:
     alt: 'Roller Champions Logo'
 worksImage1:
     url: 'https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/icSUnutIoNmeZ72lHzb7M/0bd1db5cc24ef5d1f36393b4d39edbd5/RC_KeyArt.jpg'
-    alt: 'first image of your project.'
+    alt: 'Roller Champions Key Art'
 platform: PC, Xbox, PS4
 engine: Unity
 ---

@@ -3,6 +3,7 @@ import BaseLayout from './Layout.astro';
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
+    <p class="right"><a class="badge__link pink-text" href="/portfolio/#projects">← Projects</a></p>
     <h1>{frontmatter.title}</h1>
     <div class="center extra-padding">
         <img class="pro-img" width="500px" height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} />

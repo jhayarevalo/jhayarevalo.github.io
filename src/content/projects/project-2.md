@@ -3,10 +3,10 @@ title: 'Nightingale'
 description: 'Multiplayer PC survival-crafting game by Inflexion Games'
 image:
     url: 'https://i0.wp.com/aggronaut.com/wp-content/uploads/2024/02/NWXClient-Win64-Shipping-20240220-173353264.jpg?w=1280&ssl=1'
-    alt: 'GitHub wallpaper'
+    alt: 'Nightingale Logo'
 worksImage1:
     url: '/Keyart1080_Updated.jpg'
-    alt: 'first image of your project.'    
+    alt: 'Nightingale Key Art'    
 platform: PC
 engine: Unreal Engine 5
 ---
