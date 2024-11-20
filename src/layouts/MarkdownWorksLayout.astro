@@ -5,7 +5,7 @@ const { frontmatter } = Astro.props;
 <BaseLayout pageTitle={frontmatter.title}>
     <h2>{frontmatter.title}</h2>
     <div class="center">
-        <img class="pro-img" width="500px" height="281" src="/public/image-1.webp" alt="" />
+        <img class="pro-img" width="500px" height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} />
     </div>
     <div class="badge-div"><span class="badge badge--item">PLATFORM</span>{frontmatter.platform}</div>
     <div class="badge-div"><span class="badge badge--item">ENGINE</span>{frontmatter.engine}</div>
