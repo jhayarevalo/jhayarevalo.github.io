@@ -20,7 +20,7 @@
 
 /* Custom Classes */
 .pink-text {
-    color: #ff7094;
+    color: var(--text-link);
 }
 
 .badge-div {
@@ -46,6 +46,18 @@
 
 .quote {
     font-style: italic;
+}
+
+li::marker{
+    color: var(--underline)
+}
+
+.sub-title  {
+    font-style: italic;
+    text-decoration: underline overline var(--text-link);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+    margin-bottom: 0;
 }
 
 /* Global styles */
@@ -86,7 +98,7 @@ h1 {
 h2 {
     text-decoration: underline var(--underline);
     text-decoration-thickness: 4px;
-    text-underline-offset: 6px;
+    text-underline-offset: 4px;
     font-size: 2.1rem;
     margin-bottom: 0;
 }
@@ -175,6 +187,7 @@ small, li {
 .badge__link {
     color: var(--text-link);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .badge__link:hover {
@@ -296,7 +309,7 @@ footer {
 }
 
 .icon__link:hover {
-    border-color: var(--text-link);
+    border-color: var(--button);
 }
 
 
@@ -370,7 +383,7 @@ html.light {
 }
 
 .light .icon__link:hover {
-    border-color: var(--text-link);
+    border-color: var(--button);
 }
 
 .light .git-icon {
@@ -412,8 +425,6 @@ html.light {
     }
 
     .skills__img {
-        height: 30px;
-        width: 30px;
         margin: 8px 1px;
     }
 
