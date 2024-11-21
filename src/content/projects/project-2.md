@@ -10,15 +10,19 @@ worksImage1:
 platform: PC
 engine: Unreal Engine 5
 ---
-<div class="badge-div">
-        <span class="badge badge--item">WEBSITE</span><a class="badge__link" href="https://playnightingale.com/" target="_blank">https://playnightingale.com/</a>
-</div>
 <h2>Summary</h2>
-<p>
-    Nightingale is an open-world survival crafting game played solo or cooperatively
+<p class="quote">
+    "Nightingale is an open-world survival crafting game played solo or cooperatively
     with friends. Build, craft, fight and explore as you venture through mystical portals
-    into a variety of amazing and fantastical realms.
+    into a variety of amazing and fantastical realms."
 </p>
+
+<div class="center extra-spacing">
+    <a href="https://playnightingale.com/">
+        <button class="btn">Official Website</button>
+    </a>
+</div>
+
 <h2>My Feature Work</h2>
 <ul>
     <li><h3>Party System UI</h3><p></p></li>

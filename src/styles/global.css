@@ -28,8 +28,12 @@
     margin-top: 10px;
 }
 
-.extra-padding {
+.extra-spacing {
     margin: 10px 0 10px 0;
+}
+
+.badges-left-margin {
+    margin-left: 20px;
 }
 
 .center-button {
@@ -38,6 +42,10 @@
 
 .right {
     text-align: right;
+}
+
+.quote {
+    font-style: italic;
 }
 
 /* Global styles */
@@ -64,7 +72,7 @@ body {
     text-align: justify;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--header);
     font-weight: normal;
 }

@@ -5,11 +5,13 @@ const { frontmatter } = Astro.props;
 <BaseLayout pageTitle={frontmatter.title}>
     <p class="right"><a class="badge__link pink-text" href="/portfolio/#projects">← Projects</a></p>
     <h1>{frontmatter.title}</h1>
-    <div class="center extra-padding">
+    <div class="center extra-spacing">
         <img class="pro-img" width="500px" height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} />
     </div>
-    <div class="badge-div"><span class="badge badge--item">PLATFORM</span>{frontmatter.platform}</div>
-    <div class="badge-div"><span class="badge badge--item">ENGINE</span>{frontmatter.engine}</div>
+        <div class="badges-left-margin">
+        <span class="badge badge--item">{frontmatter.platform}</span>
+        <span class="badge badge--item">{frontmatter.engine}</span>
+    </div>
     <slot />
 </BaseLayout>
 
