@@ -23,6 +23,10 @@
     color: var(--text-link);
 }
 
+.green-text{
+    color: var(--button);
+}
+
 .badge-div {
     font-family: var(--body);
     margin-top: 10px;
@@ -45,10 +49,11 @@
 }
 
 .quote {
+    font-family: 'Baloo 2 Variable';
     font-style: italic;
 }
 
-li::marker{
+li::marker {
     color: var(--underline)
 }
 
