@@ -79,5 +79,5 @@ engine: Unreal Engine 5
 </div>
 <ul>
     <li>List <b>Steam Achievements</b> in the Challenges screen</li>
-    <li>Allow players to view progress updates on the individual challenges and <i>grant rewards</i> upon completing a challenge</li>
+    <li>Allow players to view progress updates on the individual challenges and <b>grant rewards</b> upon completing a challenge</li>
 </ul>
